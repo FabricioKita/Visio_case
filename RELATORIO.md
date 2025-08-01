@@ -23,13 +23,6 @@ Foram utilizados os seguintes arquivos:
 - torque.csv:
 - dados_dash1.csv
 
-
-### 2.2 Etapas no Power BI
-- Importação dos dados com BQ
-- Criação das relações entre tabelas
-- Cálculo de métricas em DAX
-- Visualização de dados com o próprio power bi
-
 ## 3. Construção do Índice de Saúde Financeira
 
 ### 3.1 Métricas utilizadas (normalizadas entre 0 e 1)
