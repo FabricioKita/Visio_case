@@ -18,13 +18,13 @@ Este projeto tem como objetivo criar um **Índice de Saúde Financeira** a parti
 
 Desenvolver uma métrica de índice de saúde financeira, variando de 0 a 4, com base em quatro variáveis principais:
 
-1. Media do Torque normalizado
+1. Torque Normalizado
 2. Ticket médio normalizado
-3. Receita líquida do último mês normalizada
-4: 1 - taxa de desconto normalizado
+3. Faturamento normalizado
+4: taxa de desconto normalizado
 ---
 
-Indice de saúde financeira = Media do Torque normalizado + Ticket médio normalizado + Receita líquida do último mês normalizada + (1 - taxa de desconto)
+ISF = ticket_medio_normalizado + faturamento_normalizado + soma_net_torque_normalizado + (1 - descontos-normalizados)
 
 Variando de 0 a 4, o índice representa o quão saudável uma loja está, permitindo uma comparação entre lojas.
 
