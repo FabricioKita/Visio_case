@@ -45,3 +45,8 @@ Cabe ressaltar que a taxa de desconto não possuem uma relação perfeitamente l
 
 ---
 
+Link do google drive com o dashboard:
+
+https://drive.google.com/file/d/1nLg6dhUUl-OKCepMqxsvFAeu0NUHbkRu/view?usp=sharing
+
+
