@@ -6,13 +6,17 @@ Este projeto tem como objetivo criar um **Índice de Saúde Financeira** a parti
 
 ## Arquivos Utilizados
 
-- `receipts.csv`: informações principais dos cupons fiscais
-- `payments.csv`: formas de pagamento
-- `items.csv`: itens vendidos por recibo
-- `discounts.csv`: descontos / promoções
-- `torque.csv`: métricas financeiras diárias
+- receipts.csv: informações principais dos cupons fiscais
+- payments.csv: formas de pagamento
+- items.csv: itens vendidos por recibo
+- discounts.csv: descontos / promoções
+- torque.csv: métricas financeiras diárias
 
 ---
+## Ferramentas utilizadas
+- Power bi: Ferramenta de dashboards 
+- Python: linguagem de progamação
+- GoogleBigQuerry: Ferramenta de big data
 
 ## Objetivo
 
@@ -23,6 +27,15 @@ Desenvolver uma métrica de índice de saúde financeira, variando de 0 a 4, com
 3. Faturamento normalizado
 4: taxa de desconto normalizado
 ---
+
+## Etapas no Power BI
+- Importação dos dados com GoogleBigQuerry
+- Criação das relações entre tabelas
+- Cálculo de métricas em DAX
+- Visualização de dados com o próprio power bi
+
+
+## Métrica calculada
 
 ISF = ticket_medio_normalizado + faturamento_normalizado + soma_net_torque_normalizado + (1 - descontos-normalizados)
 
